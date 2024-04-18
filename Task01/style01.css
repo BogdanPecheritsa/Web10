@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navbar{
+    width: 1200px;
+    display: flex;
+    background-color: #6A85E7;
+    overflow: hidden;
+    border: 2px solid #0630d0;
+    padding: 10px;
+}
+
+.numeration{
+    width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+.navbar-a {
+    justify-content: space-between;
+}
+
+.navbar-a a{
+    padding: 14px 16px;
+}
+
+.navbar-b{
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.navbar-b a{
+    padding: 14px 16px;
+}
+
+.navbar-c{
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar-c a{
+    padding: 14px 16px;
+}
+
+.navbar-d{
+    align-content: flex-start;
+    height: auto;
+    justify-content: center;
+}
+
+.navbar-d a{
+    width: 170px;
+    border: 1px solid #0630d0;
+}
+
+.navbar-e{
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.navbar-e a{
+    width: 170px;
+    border: 1px solid #0630d0;
+}
+
+.navbar-f{
+    justify-content: flex-end;
+    align-items: center;
+    height: auto;
+}
+
+.navbar-f a{
+    width: 170px;
+    border: 1px solid #0630d0;
+}
+
+.navbar-g {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    height: auto;
+    align-items: center;
+}
+
+.navbar-g a{
+    width: 170px;
+    border: 1px solid #0630d0;
+}
+
+.navbar-h{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navbar-h a{
+    padding: 14px 16px;
+}
+
+.navbar-i-container{
+    width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-i{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.navbar-i a{
+    padding: 14px 16px;
+    border-bottom: 2px solid #0630d0;
+    width: 700px;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+}
