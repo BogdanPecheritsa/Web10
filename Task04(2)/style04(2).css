@@ -1,0 +1,62 @@
+/* Базові стилі */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+header, .content, .aside1, .aside2, footer {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Стилі для десктопних екранів */
+@media (min-width: 1025px) {
+    header {
+        background-color: blue;
+    }
+    .content {
+        background-color: green;
+    }
+    .aside1 {
+        background-color: yellow;
+    }
+    .aside2 {
+        background-color: pink;
+    }
+    footer {
+        background-color: purple;
+    }
+}
+
+/* Стилі для планшетів */
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        background-color: purple;
+    }
+    .content {
+        background-color: pink;
+    }
+    .aside1 {
+        background-color: blue;
+    }
+    .aside2 {
+        background-color: green;
+    }
+    footer {
+        background-color: purple;
+    }
+}
+
+/* Стилі для мобільних екранів */
+@media (max-width: 767px) {
+    header, footer {
+        background-color: purple;
+    }
+    .content {
+        background-color: pink;
+    }
+    .aside1, .aside2 {
+        display: none;
+    }
+}
